@@ -1,0 +1,78 @@
+/* .broder {
+  border: 2px solid blue;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.left {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.right {
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.bottom {
+  width: 1000px;
+  height: 30px;
+  background-color: green;
+} */
+
+/* .clear {
+  clear: both;
+  height: 10PX;
+  background-color: lightgree;
+} */
+
+/* .broder::after{
+  content: '';
+  display: block;
+  clear: both;
+} */
+
+
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main {
+  background-color: white;
+}
+
+.header, .sidemenu, .footer {
+  border: 10px solid #aaa;
+  background-color:  #ccc;
+}
+
+.header, .footer {
+  height: 100px;
+}
+
+.main, .sidemenu {
+  height: 500px;
+}
+
+.left {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+  background-color: yellow;
+}
+
+.right {
+  float: right;
+  width: 200px;
+  height: 200px;
+  margin-right: 100px;
+  background-color: red;
+}
